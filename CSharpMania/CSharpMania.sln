@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalCSharp", "FunctionalCSharp\FunctionalCSharp.csproj", "{2747B0A4-CFC1-4010-9BBF-E56E525FCD6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalCSharpTests", "FunctionalCSharpTests\FunctionalCSharpTests.csproj", "{BF1AA65B-AAAE-4442-9730-6B167AF7F8CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2747B0A4-CFC1-4010-9BBF-E56E525FCD6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2747B0A4-CFC1-4010-9BBF-E56E525FCD6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2747B0A4-CFC1-4010-9BBF-E56E525FCD6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF1AA65B-AAAE-4442-9730-6B167AF7F8CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1AA65B-AAAE-4442-9730-6B167AF7F8CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1AA65B-AAAE-4442-9730-6B167AF7F8CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1AA65B-AAAE-4442-9730-6B167AF7F8CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
