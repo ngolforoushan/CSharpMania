@@ -1,0 +1,6 @@
+C:\Users\NavidG\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharp\bin\Debug\netcoreapp1.1\FunctionalCSharp.deps.json
+C:\Users\NavidG\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharp\bin\Debug\netcoreapp1.1\FunctionalCSharp.dll
+C:\Users\NavidG\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharp\bin\Debug\netcoreapp1.1\FunctionalCSharp.pdb
+C:\Users\NavidG\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharp\obj\Debug\netcoreapp1.1\FunctionalCSharp.AssemblyInfo.cs
+C:\Users\NavidG\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharp\obj\Debug\netcoreapp1.1\FunctionalCSharp.dll
+C:\Users\NavidG\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharp\obj\Debug\netcoreapp1.1\FunctionalCSharp.pdb
