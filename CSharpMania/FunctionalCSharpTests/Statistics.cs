@@ -9,7 +9,7 @@ namespace FunctionalCSharpTests
     public class Statistics
     {
         [TestMethod]
-        public void TestMethod1()
+        public void action_runing_time_is_mesurable()
         {
             var res= TimeKeeper.RunTime(() => {
                 Thread.Sleep(200);
@@ -18,5 +18,13 @@ namespace FunctionalCSharpTests
 
         }
 
+        [TestMethod]
+        public void partial_test() {
+            Func<string,string> testfunc = (name) => {
+                return $"Hello {name}";
+            };
+            var res = testfunc.Partial("navid").WithRetry();
+            Assert.AreEqual(res, "Hello navid");
+        }
     }
 }
