@@ -78,7 +78,6 @@ namespace Threading
         [ThreadStatic]
         static int _ThreadSpecificFilead_StaticField;
         static int _ThreadSpecificFilead_NoneStaticField;
-
         static void ThreadSpecificFilead()
         {
             var _t1 = new Thread(() =>
