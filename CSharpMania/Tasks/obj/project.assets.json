@@ -7042,10 +7042,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\navidg\\Source\\Repos\\CSharpMania\\CSharpMania\\Threading\\Threading.csproj",
-      "projectName": "Threading",
-      "projectPath": "C:\\Users\\navidg\\Source\\Repos\\CSharpMania\\CSharpMania\\Threading\\Threading.csproj",
-      "outputPath": "C:\\Users\\navidg\\Source\\Repos\\CSharpMania\\CSharpMania\\Threading\\obj\\",
+      "projectUniqueName": "C:\\Users\\navidg\\Source\\Repos\\CSharpMania\\CSharpMania\\Tasks\\Tasks.csproj",
+      "projectName": "Tasks",
+      "projectPath": "C:\\Users\\navidg\\Source\\Repos\\CSharpMania\\CSharpMania\\Tasks\\Tasks.csproj",
+      "outputPath": "C:\\Users\\navidg\\Source\\Repos\\CSharpMania\\CSharpMania\\Tasks\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

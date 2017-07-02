@@ -1,0 +1,9 @@
+C:\Users\navidg\Source\Repos\CSharpMania\CSharpMania\Tasks\bin\Debug\netcoreapp1.1\Tasks.deps.json
+C:\Users\navidg\Source\Repos\CSharpMania\CSharpMania\Tasks\bin\Debug\netcoreapp1.1\Tasks.runtimeconfig.json
+C:\Users\navidg\Source\Repos\CSharpMania\CSharpMania\Tasks\bin\Debug\netcoreapp1.1\Tasks.runtimeconfig.dev.json
+C:\Users\navidg\Source\Repos\CSharpMania\CSharpMania\Tasks\bin\Debug\netcoreapp1.1\Tasks.dll
+C:\Users\navidg\Source\Repos\CSharpMania\CSharpMania\Tasks\bin\Debug\netcoreapp1.1\Tasks.pdb
+C:\Users\navidg\Source\Repos\CSharpMania\CSharpMania\Tasks\obj\Debug\netcoreapp1.1\Tasks.csprojResolveAssemblyReference.cache
+C:\Users\navidg\Source\Repos\CSharpMania\CSharpMania\Tasks\obj\Debug\netcoreapp1.1\Tasks.AssemblyInfo.cs
+C:\Users\navidg\Source\Repos\CSharpMania\CSharpMania\Tasks\obj\Debug\netcoreapp1.1\Tasks.dll
+C:\Users\navidg\Source\Repos\CSharpMania\CSharpMania\Tasks\obj\Debug\netcoreapp1.1\Tasks.pdb
