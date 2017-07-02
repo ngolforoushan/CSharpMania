@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace Threading
 {
@@ -78,45 +81,32 @@ namespace Threading
         [ThreadStatic]
         static int _ThreadSpecificFilead_StaticField;
         static int _ThreadSpecificFilead_NoneStaticField;
-        static ThreadLocal<int> _ThreadLocal_Field = new ThreadLocal<int>(()=> {
+        static ThreadLocal<int> _ThreadLocal_Field = new ThreadLocal<int>(() =>
+        {
             return Thread.CurrentThread.ManagedThreadId;
         });
         static void ThreadSpecificFilead()
         {
-            var _t1 = new Thread(() =>
-            {
-                for (int i = 0; i < 10; i++)
-                {
-                    _ThreadSpecificFilead_NoneStaticField++;
-                    _ThreadSpecificFilead_StaticField++;
-                    Thread.Sleep(1000);
-                    Console.WriteLine("Thread-{0},Static Field: {2} vs None-Static Field: {1}",
-                        _ThreadLocal_Field, 
-                        _ThreadSpecificFilead_NoneStaticField,
-                        _ThreadSpecificFilead_StaticField);
-                }
-            });
-
-            var _t2 = new Thread(() =>
-            {
-                for (int i = 0; i < 10; i++)
-                {
-                    _ThreadSpecificFilead_NoneStaticField++;
-                    _ThreadSpecificFilead_StaticField++;
-                    Thread.Sleep(1000);
-                    Console.WriteLine("Thread-{0},Static Field: {2} vs None-Static Field: {1}",
-                        _ThreadLocal_Field,
-                        _ThreadSpecificFilead_NoneStaticField, 
-                        _ThreadSpecificFilead_StaticField);
-                }
-            });
-
-            _t1.Start();
-            _t2.Start();
+            Action action = () =>
+              {
+                  for (int i = 0; i < 10; i++)
+                  {
+                      _ThreadSpecificFilead_NoneStaticField++;
+                      _ThreadSpecificFilead_StaticField++;
+                      Thread.Sleep(1000);
+                      Console.WriteLine("Thread-{0},Static Field: {2} vs None-Static Field: {1}",
+                          _ThreadLocal_Field,
+                          _ThreadSpecificFilead_NoneStaticField,
+                          _ThreadSpecificFilead_StaticField);
+                  }
+              };
+            Console.WriteLine("Howmany thread you want to run?");
+            Parallel.Invoke(Enumerable.Repeat(action,
+                Convert.ToInt32(Console.ReadLine()))
+                .ToArray());
             Console.WriteLine("Press any key for termination...");
             Console.ReadKey();
-            _t1.Join();
-            _t2.Join();
+            _ThreadLocal_Field.Dispose();
         }
     }
 }
