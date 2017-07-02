@@ -8,8 +8,8 @@ namespace Threading
         static void Main(string[] args)
         {
             Console.WriteLine("Please select demo #");
-            Console.WriteLine("1.Background Thread");
-            Console.WriteLine("2.Foreground Thread");
+            Console.WriteLine("1.A)Background Thread");
+            Console.WriteLine("2.B)Foreground Thread");
             var sel =System.Convert.ToInt32(Console.ReadLine());
 
             switch (sel)
