@@ -78,6 +78,9 @@ namespace Threading
         [ThreadStatic]
         static int _ThreadSpecificFilead_StaticField;
         static int _ThreadSpecificFilead_NoneStaticField;
+        static ThreadLocal<int> _ThreadLocal_Field = new ThreadLocal<int>(()=> {
+            return Thread.CurrentThread.ManagedThreadId;
+        });
         static void ThreadSpecificFilead()
         {
             var _t1 = new Thread(() =>
@@ -87,7 +90,10 @@ namespace Threading
                     _ThreadSpecificFilead_NoneStaticField++;
                     _ThreadSpecificFilead_StaticField++;
                     Thread.Sleep(1000);
-                    Console.WriteLine("Thread-{0},Static Field: {2} vs None-Static Field: {1}", "Thread A", _ThreadSpecificFilead_NoneStaticField,_ThreadSpecificFilead_StaticField);
+                    Console.WriteLine("Thread-{0},Static Field: {2} vs None-Static Field: {1}",
+                        _ThreadLocal_Field, 
+                        _ThreadSpecificFilead_NoneStaticField,
+                        _ThreadSpecificFilead_StaticField);
                 }
             });
 
@@ -98,7 +104,10 @@ namespace Threading
                     _ThreadSpecificFilead_NoneStaticField++;
                     _ThreadSpecificFilead_StaticField++;
                     Thread.Sleep(1000);
-                    Console.WriteLine("Thread-{0},Static Field: {2} vs None-Static Field: {1}", "Thread B", _ThreadSpecificFilead_NoneStaticField, _ThreadSpecificFilead_StaticField);
+                    Console.WriteLine("Thread-{0},Static Field: {2} vs None-Static Field: {1}",
+                        _ThreadLocal_Field,
+                        _ThreadSpecificFilead_NoneStaticField, 
+                        _ThreadSpecificFilead_StaticField);
                 }
             });
 
