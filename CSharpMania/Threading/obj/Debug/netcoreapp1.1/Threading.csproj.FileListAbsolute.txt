@@ -1,0 +1,9 @@
+C:\Users\navidg\Source\Repos\CSharpMania\CSharpMania\Threading\bin\Debug\netcoreapp1.1\Threading.deps.json
+C:\Users\navidg\Source\Repos\CSharpMania\CSharpMania\Threading\bin\Debug\netcoreapp1.1\Threading.runtimeconfig.json
+C:\Users\navidg\Source\Repos\CSharpMania\CSharpMania\Threading\bin\Debug\netcoreapp1.1\Threading.runtimeconfig.dev.json
+C:\Users\navidg\Source\Repos\CSharpMania\CSharpMania\Threading\bin\Debug\netcoreapp1.1\Threading.dll
+C:\Users\navidg\Source\Repos\CSharpMania\CSharpMania\Threading\bin\Debug\netcoreapp1.1\Threading.pdb
+C:\Users\navidg\Source\Repos\CSharpMania\CSharpMania\Threading\obj\Debug\netcoreapp1.1\Threading.csprojResolveAssemblyReference.cache
+C:\Users\navidg\Source\Repos\CSharpMania\CSharpMania\Threading\obj\Debug\netcoreapp1.1\Threading.AssemblyInfo.cs
+C:\Users\navidg\Source\Repos\CSharpMania\CSharpMania\Threading\obj\Debug\netcoreapp1.1\Threading.dll
+C:\Users\navidg\Source\Repos\CSharpMania\CSharpMania\Threading\obj\Debug\netcoreapp1.1\Threading.pdb
