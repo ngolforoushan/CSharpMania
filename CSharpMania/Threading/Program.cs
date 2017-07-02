@@ -10,7 +10,8 @@ namespace Threading
             Console.WriteLine("Please select demo #");
             Console.WriteLine("1.A)Background Thread");
             Console.WriteLine("2.B)Foreground Thread");
-            var sel =System.Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("3.Stopping a thread");
+            var sel =Convert.ToInt32(Console.ReadLine());
 
             switch (sel)
             {
@@ -19,6 +20,9 @@ namespace Threading
                     break;
                 case 2:
                     RunForegroundThread();
+                    break;
+                case 3:
+                    StoppingAThread();
                     break;
                 default:
                     break;
@@ -43,6 +47,23 @@ namespace Threading
             var _foregroundThread = new Thread(new ParameterizedThreadStart(SimpleLoop));
             _foregroundThread.IsBackground = false;
             _foregroundThread.Start(5);
+        }
+
+        static void StoppingAThread() {
+            var _isTerminated = false;
+            var _loopThread = new Thread(() => {
+                while (! _isTerminated)
+                {
+                    Console.WriteLine("Thread still running....{0}",DateTime.Now.ToString());
+                    Thread.Sleep(1000);
+                }
+            });
+
+            _loopThread.Start();
+            Console.WriteLine("Thread started. Press any key to stop the thread");
+            Console.ReadKey();
+            _isTerminated = true;
+            _loopThread.Join();
         }
     }
 }
