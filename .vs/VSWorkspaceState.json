@@ -2,7 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\CSharpMania",
-    "\\CSharpMania\\FunctionalCSharp"
+    "\\CSharpMania\\Security",
+    "\\CSharpMania\\Tasks",
+    "\\CSharpMania\\Tasks\\obj\\Release\\netcoreapp1.1"
   ],
+  "SelectedNode": "\\CSharpMania\\Security\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
