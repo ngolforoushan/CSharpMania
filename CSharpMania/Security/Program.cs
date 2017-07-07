@@ -12,7 +12,7 @@ namespace Security {
         static void loop() {
             Console.WriteLine("Select...");
             Console.WriteLine("1.Password Hash");
-            Console.WriteLine("2.");
+            Console.WriteLine("2.Salt");
             Console.WriteLine("3.");
             Console.WriteLine("4.");
             var sel = Convert.ToInt32(Console.ReadLine());
@@ -22,6 +22,7 @@ namespace Security {
                     PasswordHash();
                     break;
                 case 2:
+                    SaltGenerator(8);
 
                     break;
                 case 3:
@@ -34,6 +35,16 @@ namespace Security {
                     break;
             }
         }
+
+        private static void SaltGenerator(int size)
+        {
+            var rng_algo = RandomNumberGenerator.Create();
+            var salt = new byte[size];
+            rng_algo.GetBytes(salt);
+            Console.WriteLine("salt==>{0}",Convert.ToBase64String(salt));
+            loop();
+        }
+
         static void PasswordHash()
         {
             var alg = SHA512.Create();
