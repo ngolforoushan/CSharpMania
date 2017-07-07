@@ -41,7 +41,11 @@ namespace Security {
             var rng_algo = RandomNumberGenerator.Create();
             var salt = new byte[size];
             rng_algo.GetBytes(salt);
-            Console.WriteLine("salt==>{0}",Convert.ToBase64String(salt));
+            var str_salt = Convert.ToBase64String(salt);
+            Console.WriteLine("salt==>{0}",str_salt);
+            var sha_algo = SHA512.Create();
+            var res=sha_algo.ComputeHash(Encoding.UTF8.GetBytes("mypassword"+str_salt+"#s9$An>k"));
+            Console.WriteLine("Salted,Hased password=>{0}",Convert.ToBase64String(res));
             loop();
         }
 
