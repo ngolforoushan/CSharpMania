@@ -13,8 +13,7 @@ namespace Security {
             Console.WriteLine("Select...");
             Console.WriteLine("1.Password Hash");
             Console.WriteLine("2.Salt");
-            Console.WriteLine("3.");
-            Console.WriteLine("4.");
+
             var sel = Convert.ToInt32(Console.ReadLine());
 
             switch (sel) {
@@ -23,13 +22,6 @@ namespace Security {
                     break;
                 case 2:
                     SaltGenerator(8);
-
-                    break;
-                case 3:
-
-                    break;
-                case 4:
-
                     break;
                 default:
                     break;
