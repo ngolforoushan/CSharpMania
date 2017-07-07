@@ -6,3 +6,4 @@ C:\Users\NavidG\Source\Repos\CSharpMania\CSharpMania\Security\bin\Debug\netcorea
 C:\Users\NavidG\Source\Repos\CSharpMania\CSharpMania\Security\obj\Debug\netcoreapp1.1\Security.AssemblyInfo.cs
 C:\Users\NavidG\Source\Repos\CSharpMania\CSharpMania\Security\obj\Debug\netcoreapp1.1\Security.dll
 C:\Users\NavidG\Source\Repos\CSharpMania\CSharpMania\Security\obj\Debug\netcoreapp1.1\Security.pdb
+C:\Users\NavidG\Source\Repos\CSharpMania\CSharpMania\Security\obj\Debug\netcoreapp1.1\Security.csprojResolveAssemblyReference.cache
