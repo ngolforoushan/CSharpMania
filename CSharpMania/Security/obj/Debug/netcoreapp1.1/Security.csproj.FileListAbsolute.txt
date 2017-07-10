@@ -7,3 +7,12 @@ C:\Users\NavidG\Source\Repos\CSharpMania\CSharpMania\Security\obj\Debug\netcorea
 C:\Users\NavidG\Source\Repos\CSharpMania\CSharpMania\Security\obj\Debug\netcoreapp1.1\Security.dll
 C:\Users\NavidG\Source\Repos\CSharpMania\CSharpMania\Security\obj\Debug\netcoreapp1.1\Security.pdb
 C:\Users\NavidG\Source\Repos\CSharpMania\CSharpMania\Security\obj\Debug\netcoreapp1.1\Security.csprojResolveAssemblyReference.cache
+C:\Users\NavidG\Documents\CSharpMania\CSharpMania\Security\bin\Debug\netcoreapp1.1\Security.deps.json
+C:\Users\NavidG\Documents\CSharpMania\CSharpMania\Security\bin\Debug\netcoreapp1.1\Security.runtimeconfig.json
+C:\Users\NavidG\Documents\CSharpMania\CSharpMania\Security\bin\Debug\netcoreapp1.1\Security.runtimeconfig.dev.json
+C:\Users\NavidG\Documents\CSharpMania\CSharpMania\Security\bin\Debug\netcoreapp1.1\Security.dll
+C:\Users\NavidG\Documents\CSharpMania\CSharpMania\Security\bin\Debug\netcoreapp1.1\Security.pdb
+C:\Users\NavidG\Documents\CSharpMania\CSharpMania\Security\obj\Debug\netcoreapp1.1\Security.csprojResolveAssemblyReference.cache
+C:\Users\NavidG\Documents\CSharpMania\CSharpMania\Security\obj\Debug\netcoreapp1.1\Security.AssemblyInfo.cs
+C:\Users\NavidG\Documents\CSharpMania\CSharpMania\Security\obj\Debug\netcoreapp1.1\Security.dll
+C:\Users\NavidG\Documents\CSharpMania\CSharpMania\Security\obj\Debug\netcoreapp1.1\Security.pdb
