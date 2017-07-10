@@ -18,6 +18,7 @@ namespace Security
             Console.WriteLine("1.Password Hash");
             Console.WriteLine("2.Salt");
             Console.WriteLine("3.Rijandael");
+            Console.WriteLine("4.RSA");
 
             var sel = Convert.ToInt32(Console.ReadLine());
 
@@ -32,9 +33,53 @@ namespace Security
                 case 3:
                     SymetricEncription();
                     break;
+                case 4:
+                    RSACrypto();
+                    break;
+                case 0:
+                    break;
                 default:
                     break;
             }
+        }
+
+        private static void RSACrypto()
+        {
+            byte[] cipher_text;
+            RSAParameters private_key;
+            RSAParameters public_key;
+
+            using (var rsa_alg=RSA.Create())
+            {
+                // Private key is a senstive data don't share it with a client.
+                //safe serve behind the firewalls!!
+                public_key = rsa_alg.ExportParameters(false);
+                private_key = rsa_alg.ExportParameters(true);
+            }
+
+            using (var rsa_alg = RSA.Create())
+            {
+                // you don't need to share private key for decription {unsafe location}//
+                rsa_alg.ImportParameters(public_key);
+                Console.WriteLine("####################");
+                Console.WriteLine("data:?");
+                var plain_text = Console.ReadLine();
+                cipher_text = rsa_alg.Encrypt(Encoding.UTF8.GetBytes(plain_text), RSAEncryptionPadding.OaepSHA512);
+                Console.WriteLine("cipher=>>>>>{0}<<<<<", Convert.ToBase64String(cipher_text));
+            }
+
+            using (var rsa_alg = RSA.Create())
+            {
+                //safe serve behind the firewalls!!
+                rsa_alg.ImportParameters(private_key);
+                Console.WriteLine("decription=>>>>>>{0}<<<<<<", Encoding.UTF8.GetString(rsa_alg.Decrypt(cipher_text, RSAEncryptionPadding.OaepSHA512)));
+                Console.WriteLine("####################");
+            }
+
+
+
+
+            loop();
         }
 
         private static void SymetricEncription()
@@ -60,15 +105,15 @@ namespace Security
             Console.WriteLine("Encription");
             Console.WriteLine("----------");
             Console.WriteLine("IV:{0}", Convert.ToBase64String(rijandael_alg.IV));
-            Console.WriteLine("Key:{0}",Convert.ToBase64String(rijandael_alg.Key));
+            Console.WriteLine("Key:{0}", Convert.ToBase64String(rijandael_alg.Key));
             var byte_data = Encoding.UTF8.GetBytes(data);
             var crypted_data = rijandael_alg.CreateEncryptor()
                 .TransformFinalBlock(byte_data, 0, byte_data.Length);
-            Console.WriteLine("Cipher Text: {0}",Convert.ToBase64String(crypted_data));
+            Console.WriteLine("Cipher Text: {0}", Convert.ToBase64String(crypted_data));
 
             Console.WriteLine("Decription");
             Console.WriteLine("----------");
-            Console.WriteLine("Plain Text: {0}",Encoding.UTF8.GetString(rijandael_alg.CreateDecryptor().TransformFinalBlock(crypted_data,0,crypted_data.Length)));
+            Console.WriteLine("Plain Text: {0}", Encoding.UTF8.GetString(rijandael_alg.CreateDecryptor().TransformFinalBlock(crypted_data, 0, crypted_data.Length)));
             Console.WriteLine("#######################################################");
             Console.WriteLine();
             loop();
