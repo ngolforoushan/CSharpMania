@@ -12,3 +12,17 @@ C:\Users\NavidG\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharpTests\obj\D
 C:\Users\NavidG\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharpTests\obj\Debug\netcoreapp1.1\FunctionalCSharpTests.AssemblyInfo.cs
 C:\Users\NavidG\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharpTests\obj\Debug\netcoreapp1.1\FunctionalCSharpTests.dll
 C:\Users\NavidG\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharpTests\obj\Debug\netcoreapp1.1\FunctionalCSharpTests.pdb
+C:\Users\ngolf\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharpTests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\ngolf\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharpTests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\ngolf\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharpTests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\ngolf\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharpTests\bin\Debug\netcoreapp1.1\FunctionalCSharpTests.deps.json
+C:\Users\ngolf\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharpTests\bin\Debug\netcoreapp1.1\FunctionalCSharpTests.runtimeconfig.json
+C:\Users\ngolf\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharpTests\bin\Debug\netcoreapp1.1\FunctionalCSharpTests.runtimeconfig.dev.json
+C:\Users\ngolf\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharpTests\bin\Debug\netcoreapp1.1\FunctionalCSharpTests.dll
+C:\Users\ngolf\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharpTests\bin\Debug\netcoreapp1.1\FunctionalCSharpTests.pdb
+C:\Users\ngolf\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharpTests\bin\Debug\netcoreapp1.1\FunctionalCSharp.dll
+C:\Users\ngolf\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharpTests\bin\Debug\netcoreapp1.1\FunctionalCSharp.pdb
+C:\Users\ngolf\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharpTests\obj\Debug\netcoreapp1.1\FunctionalCSharpTests.csprojResolveAssemblyReference.cache
+C:\Users\ngolf\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharpTests\obj\Debug\netcoreapp1.1\FunctionalCSharpTests.AssemblyInfo.cs
+C:\Users\ngolf\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharpTests\obj\Debug\netcoreapp1.1\FunctionalCSharpTests.dll
+C:\Users\ngolf\Source\Repos\CSharpMania\CSharpMania\FunctionalCSharpTests\obj\Debug\netcoreapp1.1\FunctionalCSharpTests.pdb

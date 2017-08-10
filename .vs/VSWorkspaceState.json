@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\CSharpMania",
+    "\\CSharpMania\\FunctionalCSharp",
     "\\CSharpMania\\Security",
     "\\CSharpMania\\Tasks"
   ],
-  "SelectedNode": "\\CSharpMania\\Security\\Program.cs",
+  "SelectedNode": "\\CSharpMania\\CSharpMania.sln",
   "PreviewInSolutionExplorer": false
 }

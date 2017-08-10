@@ -8544,15 +8544,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\navidg\\.nuget\\packages\\": {}
+    "C:\\Users\\ngolf\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\navidg\\Source\\Repos\\CSharpMania\\CSharpMania\\FunctionalCSharpTests\\FunctionalCSharpTests.csproj",
+      "projectUniqueName": "C:\\Users\\ngolf\\Source\\Repos\\CSharpMania\\CSharpMania\\FunctionalCSharpTests\\FunctionalCSharpTests.csproj",
       "projectName": "FunctionalCSharpTests",
-      "projectPath": "C:\\Users\\navidg\\Source\\Repos\\CSharpMania\\CSharpMania\\FunctionalCSharpTests\\FunctionalCSharpTests.csproj",
-      "outputPath": "C:\\Users\\navidg\\Source\\Repos\\CSharpMania\\CSharpMania\\FunctionalCSharpTests\\obj\\",
+      "projectPath": "C:\\Users\\ngolf\\Source\\Repos\\CSharpMania\\CSharpMania\\FunctionalCSharpTests\\FunctionalCSharpTests.csproj",
+      "outputPath": "C:\\Users\\ngolf\\Source\\Repos\\CSharpMania\\CSharpMania\\FunctionalCSharpTests\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -8560,8 +8560,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Users\\navidg\\Source\\Repos\\CSharpMania\\CSharpMania\\FunctionalCSharp\\FunctionalCSharp.csproj": {
-              "projectPath": "C:\\Users\\navidg\\Source\\Repos\\CSharpMania\\CSharpMania\\FunctionalCSharp\\FunctionalCSharp.csproj"
+            "C:\\Users\\ngolf\\Source\\Repos\\CSharpMania\\CSharpMania\\FunctionalCSharp\\FunctionalCSharp.csproj": {
+              "projectPath": "C:\\Users\\ngolf\\Source\\Repos\\CSharpMania\\CSharpMania\\FunctionalCSharp\\FunctionalCSharp.csproj"
             }
           }
         }

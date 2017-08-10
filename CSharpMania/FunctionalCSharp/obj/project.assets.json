@@ -7037,15 +7037,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\navidg\\.nuget\\packages\\": {}
+    "C:\\Users\\ngolf\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\navidg\\Source\\Repos\\CSharpMania\\CSharpMania\\FunctionalCSharp\\FunctionalCSharp.csproj",
+      "projectUniqueName": "C:\\Users\\ngolf\\Source\\Repos\\CSharpMania\\CSharpMania\\FunctionalCSharp\\FunctionalCSharp.csproj",
       "projectName": "FunctionalCSharp",
-      "projectPath": "C:\\Users\\navidg\\Source\\Repos\\CSharpMania\\CSharpMania\\FunctionalCSharp\\FunctionalCSharp.csproj",
-      "outputPath": "C:\\Users\\navidg\\Source\\Repos\\CSharpMania\\CSharpMania\\FunctionalCSharp\\obj\\",
+      "projectPath": "C:\\Users\\ngolf\\Source\\Repos\\CSharpMania\\CSharpMania\\FunctionalCSharp\\FunctionalCSharp.csproj",
+      "outputPath": "C:\\Users\\ngolf\\Source\\Repos\\CSharpMania\\CSharpMania\\FunctionalCSharp\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
